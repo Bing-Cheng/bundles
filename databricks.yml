@@ -1,7 +1,9 @@
 # yaml-language-server: $schema=bundle_config_schema.json
 bundle:
   name: baby-names
-
+workspace:
+  host: https://dbc-d3920b54-32ae.cloud.databricks.com/
+  auth_type: pat
 resources:
   jobs:
     retrieve-filter-baby-names-job:
